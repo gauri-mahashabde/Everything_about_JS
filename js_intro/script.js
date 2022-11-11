@@ -14,6 +14,54 @@ const name1 = "Ross";
 document.getElementById("const").innerHTML = name1;
 console.log(name1);
 
+//var message; // declaring a variable
+message = "Hello"; // initializing a variable
+document.getElementById("var").innerHTML = message;
+console.log(message);
+
+console.log(cat);
+var cat;
+
+var message = "Hello";
+
+
+var num = 100;
+var hundred = num;
+document.getElementById("var1").innerHTML = hundred;
+console.log(hundred);
+
+var one = 1, two = 'two', three;
+document.getElementById("var2").innerHTML = one, two, three;
+console.log(one, two, three);
+
+
+
+var
+    one1
+        =
+
+        1,
+    two2
+        =
+        "two"
+
+document.getElementById("var3").innerHTML = one1;
+//document.getElementById("var4").innerHTML =  two2;
+
+console.log(one1, two2);
+
+var myvariable = 1; // numeric value
+myvariable = 'one'; // string value
+myvariable = 1.1; // decimal value 
+myvariable = true; // Boolean value 
+myvariable = null; // null value
+
+
+//document.getElementById("var5").innerHTML = myvariable;
+//console.log(myvariable);
+
+
+
 function add(a,b){
     return (a+b);
 }
