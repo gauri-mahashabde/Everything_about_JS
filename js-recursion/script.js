@@ -23,3 +23,22 @@ function fibonacci(n) {
 const result = fibonacci(5);
 console.log(result);
 
+
+//example 3 reverse a string
+const str = "Virat"
+function reverseString(str) {
+    
+    if( str == undefined || str == null || str == "") return "";
+    return reverseString(str.substr(1)) + str[0];
+}
+
+const rvstr = reverseString(str);
+console.log(rvstr);
+
+
+
+const str2 = "Anushka"
+const rvstr2 = reverseString(str2);
+console.log(rvstr2);
+
+
