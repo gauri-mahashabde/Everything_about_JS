@@ -1,0 +1,41 @@
+* {
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+}
+
+.container {
+
+    padding-left: 300px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 250px;
+    margin: 10px;
+    border: 5px solid black;
+}
+
+#heading {
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #0c0c0e 45%, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+     text-align: center;
+     display: flex;
+    
+}
+
+#button1{
+    background-color: aqua;
+    padding-bottom: 10%px;
+}
+
+.button8 {
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+} 
