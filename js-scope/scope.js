@@ -14,5 +14,18 @@ console.log(name2);
 const name3 = "Green";
 console.log(name3);
 
+//Local scope
+//variable declared inside a function ,can only be accesses inside a function
+
+function myName(){
+    let country = "India";
+    console.log(country);
+};
+
+//tried to access outside a function throws reference error
+myName();
+console.log(country);
+
+
 
 
