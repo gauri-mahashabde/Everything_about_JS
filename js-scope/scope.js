@@ -23,8 +23,18 @@ function myName(){
 };
 
 //tried to access outside a function throws reference error
-//myName();
+myName();
 //console.log(country);
+
+//Block Scope
+//Cannot access the variables declared inside a particular block
+{let cars = "BMW"
+console.log(cars);}
+
+console.log(cars);
+
+
+
 
 
 
