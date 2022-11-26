@@ -23,8 +23,8 @@ function myName(){
 };
 
 //tried to access outside a function throws reference error
-myName();
-console.log(country);
+//myName();
+//console.log(country);
 
 
 
