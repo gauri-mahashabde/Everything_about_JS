@@ -24,14 +24,31 @@ function myName(){
 
 //tried to access outside a function throws reference error
 myName();
-//console.log(country);
+//console.log(country);- will throw error
 
 //Block Scope
 //Cannot access the variables declared inside a particular block
 {let cars = "BMW"
 console.log(cars);}
 
-console.log(cars);
+//console.log(cars);will throw error
+
+//Function Scope
+//Cannot access variables defined inside a function or from another function
+
+function food(){
+    var fruits = "Banana";
+    let Vegies = "Carrot";
+    let sweet = "Halwa";
+    console.log(fruits,Vegies,sweet);
+}
+
+food();
+
+//console.log(fruits,Vegies,sweet); will throw error
+
+
+
 
 
 
