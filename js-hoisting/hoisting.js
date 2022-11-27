@@ -15,8 +15,29 @@ console.log(c);     //var a;
 var c = 5;          //console.log(a);
                     // a = 5;
 
-   
-                    
+//function hoisting
+
+//A function can be called before declaring it
+
+greet();
+
+function greet(){
+    console.log("Hello World");
+}
+
+//function as expression are not hoisted
+
+//greet1();
+
+let greet1 = function(){
+    console.log("Hello ");
+}
+
+//arrow functions and hoisted
+hello();
+
+hello = () => {return "Hello world"};
+
                     
 
 
