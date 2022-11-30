@@ -34,6 +34,7 @@ let greet1 = function(){
 }
 
 //arrow functions and hoisted
+//arrow functions are not hoisted   
 hello();
 
 hello = () => {return "Hello world"};
