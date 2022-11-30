@@ -82,7 +82,32 @@ console.log(fruits);
 //let fruits = "grapes";
 //console.log(fruits); // error = fruits has already been declared
 
-//let keyword are not hoisted
+//let keyword are hoisted to the top but are not initialized.
 
+//Variables declared with the const maintain constant values
 
+const home = "nyk";
+console.log(home);
+
+//const declarations are block scoped
+let greet1 = "Hey All";
+
+function greeting1(){
+    let greets = "Hello Ross";
+    console.log(greets);
+    console.log(greet1);
+}
+
+greeting1();
+//console.log(greets);// greet is not defined 
+
+//const cannot be updated or re-declared
+
+const clg = "svn";
+console.log(clg);
+
+//clg = "PCJ";
+//console.log(clg) //Assignment to constant variable. 
+
+//hoisted to the top but are not initialized.
 
