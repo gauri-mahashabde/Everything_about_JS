@@ -5,3 +5,11 @@ while (count < 11) {
     count += 2;
 
 }
+
+//print all the odd numbers form the range odf 0-10
+let i = 1;
+while (i < 5) {
+    if (i % 2 != 0)
+        console.log(i);
+    i++;
+}
