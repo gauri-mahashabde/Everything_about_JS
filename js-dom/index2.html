@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Traverse</title>
+    <style>
+        body{
+            margin: 0;
+        }
+
+        div{
+            display: flex;
+            margin: 2rem;
+            padding: 1rem;
+            border: 3px solid black;
+            height: 10%;
+            flex-grow: 1;
+        }
+        .grandparent {
+            background-color: hsl(0, 50%,50%);
+            flex-direction: column;
+        }
+
+        .parent {
+            background-color: hsl(100 ,50%,50%);
+        }
+
+        .child {
+            background-color: hsl(200 , 50% ,50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="grandparent" id="grandparent-id">
+        <h1>GrandParent</h1>
+        <div class="parent">
+            <h2>parents</h2>
+            <div class="child">Child1</div>
+            <div class="child">Child2</div>
+        </div>
+        <div class="parent">
+            <h2>Parents</h2>
+            <div class="child">Child3</div>
+            <div class="child">Child4</div>
+            <div class="child">Child5</div>
+            
+        </div>
+    </div>
+    <script src = "traverse.js"></script>
+</body>
+</html>
