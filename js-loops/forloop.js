@@ -53,7 +53,7 @@ for (let i = 0; i < arr1.length; i++) {
 
 }
 
-console.log(max);
+//console.log(max);
 
 let min = arr1[0];
 for (let i = 0; i < arr1.length; i++) {
@@ -62,7 +62,7 @@ for (let i = 0; i < arr1.length; i++) {
     }
 }
 
-console.log(min);
+//console.log(min);
 
 //check if the number is divisible by 4 if yes the return the number by adding 10 to it using for loop
 const arr2 = [2, 8, 5, 16, 24, 12];
@@ -77,7 +77,7 @@ function checkNum(i) {
 }
 
 const sum1 = arr2.map(checkNum);
-console.log(sum1);
+//console.log(sum1);
 
 let arr3 = [2, 4, 6, 8, 24, 32];
 console.log(arr3);
@@ -92,12 +92,12 @@ for (let i = 0; i < arr3.length; i++) {
     }
 }
 
-console.log(arr4);
+//console.log(arr4);
 
 //from the given sorted array find the pair of elements whos sum is zero 
 
 let arr5 = [-5, -4, -3, -2, 0, 2, 4, 6, 8];
-console.log(arr5);
+//console.log(arr5);
 
 function checkSumZero(arr5) {
     for (let i = 0; i < arr5.length; i++) {
@@ -112,13 +112,13 @@ function checkSumZero(arr5) {
 }
 
 let rest = checkSumZero(arr5);
-console.log(rest);
+//console.log(rest);
 
 
 //Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
 
 let nums = [1, 2, 3, 4];
-console.log(nums);
+//console.log(nums);
 
 function findSum(nums) {
     let sum = 0;
@@ -129,12 +129,12 @@ function findSum(nums) {
 }
 
 let sumOf = findSum(nums);
-console.log(sumOf);
+//console.log(sumOf);
 
 
 // find the maximum number of words that appear in a single sentence.
 let sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"];
-console.log(sentences);
+//console.log(sentences);
 var mostWordsFound = function(sentences) {
     let max = 0;
     for(let i = 0; i< sentences.length;i++){
@@ -148,5 +148,5 @@ var mostWordsFound = function(sentences) {
 }
 
 let output = mostWordsFound(sentences);
-console.log(output);
+//onsole.log(output);*/
 
