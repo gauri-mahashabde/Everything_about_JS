@@ -15,3 +15,16 @@ let person = {
   };
   
   console.log(person);
+
+  
+//Accessing Object Properties
+//Using dot Notation
+//objectName.key
+
+const person2 = {
+    name: 'mark',
+    age: 20,
+  };
+  
+  // accessing property
+  console.log(person2.name);
