@@ -5,3 +5,13 @@ const names = {
     middleaName: "mark",
     lastName: "ben",
   };
+
+  //object properties
+//"key: value" pairs are called properties
+
+let person = {
+    name: 'John',
+    age: 20,
+  };
+  
+  console.log(person);
