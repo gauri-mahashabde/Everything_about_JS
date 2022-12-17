@@ -15,7 +15,7 @@ const par1 = document.querySelectorAll('.parent');
 //console.log(par1);
 
 const ch1 = document.querySelectorAll('.child');
-//console.log(ch1);
+// console.log(ch1);
 
 //const grandparent = document.querySelector('.grandparent').lastElementChild;
 //console.log(grandparent);
