@@ -16,3 +16,23 @@ students.set('Bhagya','102');
 students.set('Chaitra','103');
 
 console.log(students);
+
+const employee = new Map([["Arun","001"],["Bharat","002"],["Chaitra","003"]]);
+
+console.log(employee);
+
+const result = employee.get('Arun');
+
+console.log(result);
+
+/*properties
+Use the size property to know how many elements are in a Map
+Search an element with the has(key) method
+Remove an element with the delete(key) method
+Use the clear() method to remove all the elements from the Map at once*/
+
+const employees =  new Map([["Arun","001"],["Bharat","002"],["Chaitra","003"]]);
+
+const size = employees.size;
+
+console.log(size);
