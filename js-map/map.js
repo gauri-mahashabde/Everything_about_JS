@@ -36,3 +36,18 @@ const employees =  new Map([["Arun","001"],["Bharat","002"],["Chaitra","003"]]);
 const size = employees.size;
 
 console.log(size);
+
+
+const fruits = new Map([
+    ["apples", 500],
+    ["bananas", 300],
+    ["oranges", 200]
+  ]);
+
+  console.log(fruits.has('apples'));
+
+  fruits.delete("apples");
+  console.log(fruits);
+
+  //fruits.clear();
+//console.log(fruits);
