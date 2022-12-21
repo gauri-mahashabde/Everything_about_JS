@@ -16,3 +16,11 @@ students.set('Bhagya','102');
 students.set('Chaitra','103');
 
 console.log(students);
+
+const employee = new Map([["Arun","001"],["Bharat","002"],["Chaitra","003"]]);
+
+console.log(employee);
+
+const result = employee.get('Arun');
+
+console.log(result);
