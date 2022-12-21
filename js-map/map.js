@@ -48,3 +48,6 @@ const fruits = new Map([
 
   fruits.delete("apples");
   console.log(fruits);
+
+  //fruits.clear();
+//console.log(fruits);
