@@ -51,3 +51,18 @@ const fruits = new Map([
 
   //fruits.clear();
 //console.log(fruits);
+
+//iterator in maps
+
+const ageMap = new Map([
+  ['Jack', 20],
+  ['Alan', 34],
+  ['Bill', 10],
+  ['Sam', 9]
+]);
+
+//get keys ,values and key-value pair
+
+console.log(ageMap.keys());
+console.log(ageMap.values());
+console.log(ageMap.entries());
