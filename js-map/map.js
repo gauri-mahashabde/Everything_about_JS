@@ -66,3 +66,14 @@ const ageMap = new Map([
 console.log(ageMap.keys());
 console.log(ageMap.values());
 console.log(ageMap.entries());
+
+//using for each
+  ageMap.forEach((value,key)=>{
+    //console.log(`${key} is ${value} years old`)
+  })
+
+  //using for of
+  for(const [key, value] of ageMap) {
+    //console.log(`${key} is ${value} years old!`);
+   }
+ 
