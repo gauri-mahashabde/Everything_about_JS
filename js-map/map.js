@@ -92,3 +92,15 @@ console.log(ageMap.entries());
 
   const addressobj = Object.fromEntries(addressMap);
   console.log(addressobj);
+
+  //convert a map into an array
+  const food = new Map();
+  food.set('milk', 200);
+  food.set("tea", 300);
+  food.set('coffee', 500);
+
+  console.log(food);
+  
+  console.log(Array.from(food));
+
+  console.log([...food]);
