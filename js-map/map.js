@@ -77,3 +77,13 @@ console.log(ageMap.entries());
     //console.log(`${key} is ${value} years old!`);
    }
  
+   //convert a obj into an map
+
+  const address = {
+    'Tapas': 'Bangalore',
+    'James': 'Huston',
+    'Selva': 'Srilanka'
+  };
+
+  const addressMap = new Map(Object.entries(address));
+  console.log(addressMap);
