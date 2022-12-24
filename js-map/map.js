@@ -87,3 +87,8 @@ console.log(ageMap.entries());
 
   const addressMap = new Map(Object.entries(address));
   console.log(addressMap);
+
+  //convert map into an object
+
+  const addressobj = Object.fromEntries(addressMap);
+  console.log(addressobj);
