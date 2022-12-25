@@ -1,0 +1,23 @@
+//A Set is a collection of unique elements that can be of any type.
+//Set is also an ordered collection of elements.
+
+//creation
+
+const set = new Set();
+//console.log(set);
+
+const fruteSet = new Set(['🍉', '🍎', '🍈', '🍏','🍏']);
+//console.log(fruteSet);
+
+//console.log(fruteSet.size);
+
+const saladSet = new Set();
+
+saladSet.add('🍅'); 
+saladSet.add('🥑');
+saladSet.add('🥕'); 
+saladSet.add('🥒'); 
+
+//console.log(saladSet);
+
+saladSet.add('🥒')
