@@ -10,3 +10,14 @@ const fruteSet = new Set(['🍉', '🍎', '🍈', '🍏','🍏']);
 //console.log(fruteSet);
 
 //console.log(fruteSet.size);
+
+const saladSet = new Set();
+
+saladSet.add('🍅'); 
+saladSet.add('🥑');
+saladSet.add('🥕'); 
+saladSet.add('🥒'); 
+
+//console.log(saladSet);
+
+saladSet.add('🥒')
