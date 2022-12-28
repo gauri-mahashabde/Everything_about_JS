@@ -1,0 +1,11 @@
+#testbox {
+    height: 100px;
+    width: 100px;
+    color: rgb(80, 32, 138);
+    background-color: rgb(255, 255, 255);
+    border: 7px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
