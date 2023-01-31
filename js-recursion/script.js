@@ -66,6 +66,14 @@ function getSum(i) {
     }
 }
 
-getSum(7); 7 + 5 ,5 + 3 ,3 + 1, 1 + 0 = 16;
+//getSum(7); 7 + 5 ,5 + 3 ,3 + 1, 1 + 0 = 16;
 
 getSum(8);
+
+function recurse() {
+    // function code
+    recurse();
+    // function code
+}
+
+recurse();
