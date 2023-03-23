@@ -47,8 +47,8 @@ console.log(person["fname"]);
 
 //arrays
 
-let selectedColors = ['red','blue'];
-selectedColors[2] = 'Green'
+let selectedColors = ["red", "blue"];
+selectedColors[2] = "Green";
 
 console.log(selectedColors);
 
@@ -57,11 +57,23 @@ console.log(selectedColors[1]);
 
 //functions
 
-function greet(name){
-
-    console.log("Hello " + name);
+function greet(name) {
+  console.log("Hello " + name);
 }
 
-greet('Gauri');
-greet('jhon');
-greet('mary');
+greet("Gauri");
+greet("jhon");
+greet("mary");
+
+//function without parameters
+
+function callMe() {
+  console.log("Good Morning");
+}
+
+function callMe2() {
+  alert("Good evevning");
+}
+
+callMe();
+callMe2();
