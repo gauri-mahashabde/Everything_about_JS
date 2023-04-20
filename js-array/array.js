@@ -40,3 +40,4 @@ for (let y in obj){
     console.log(obj[y]);
 }
 
+const cars = ["Saab", "Volvo", "BMW"];
