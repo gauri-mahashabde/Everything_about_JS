@@ -9,6 +9,13 @@ const myPromise = new Promise(function (resolve, reject) {
   setTimeout(function () {
     resolve("The operation completed successfully!");
   }, 2000);
+  myPromise
+    .then(function (result) {
+      console.log(result); // Output: "The operation completed successfully!"
+    })
+    .catch(function (error) {
+      console.log(error); // Output: "An error occurred!"
+    });
 });
 
 //real time example for promise
@@ -34,3 +41,5 @@ function fetchData(url) {
 fetchData("https://jsonplaceholder.typicode.com/posts/1")
   .then((response) => console.log(response))
   .catch((error) => console.error(error));
+
+//examples of promise
