@@ -1,3 +1,13 @@
+//syntax of promise
+
+new Promise(function(resolve, reject) {
+  // Some asynchronous operation
+});
+
+
+
+
+
 function fetchData(url) {
     return new Promise((resolve, reject) => {
       const xhr = new XMLHttpRequest();
