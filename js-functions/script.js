@@ -57,4 +57,7 @@ console.log(sum);
 
 addAll2(10,20,30,40,50,60,70,80);
 
-
+let nums = [1, 2, 3];
+nums.forEach(function(num) {
+  console.log(num);
+});
