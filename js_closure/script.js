@@ -1,6 +1,7 @@
 //closure
 //Closures are functions that refer to independent (free) variables.
 //In other words, the function defined in the closure ‘remembers’ the environment in which it was created.
+//closure provides access to the outer scope of a function from inside the inner function, even after the outer function has closed
 
 //step1
 function init() {
