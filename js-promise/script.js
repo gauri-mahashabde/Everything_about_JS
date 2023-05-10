@@ -42,4 +42,6 @@ fetchData("https://jsonplaceholder.typicode.com/posts/1")
   .then((response) => console.log(response))
   .catch((error) => console.error(error));
 
-//examples of promise
+
+
+  
