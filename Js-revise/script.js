@@ -108,16 +108,39 @@ for(let i of nums){
 //map , lets add 10 to each element
 
 const nums1 = nums.map(i=> i +  10);
-console.log(nums1);
+//console.log(nums1);
 
 //filter
 const age = [24,18,16,15,14,19,23,34,12]
 
 const nums2 = age.filter(i=> i>=18);
-console.log(nums2);
+//console.log(nums2);
 
 //reduce
 const nums3 = nums.reduce((acc,cur)=>acc+cur);
-console.log(nums3);
+//console.log(nums3);
 
 //array of objects
+let cars = [
+  {
+    "color": "purple",
+    "type": "minivan",
+    "registration": new Date('2017-01-03'),
+    "capacity": 7
+  },
+  {
+    "color": "red",
+    "type": "station wagon",
+    "registration": new Date('2018-03-03'),
+    "capacity": 5
+  },
+  {
+    "color": "blue",
+    "type": "station wagon",
+    "registration": new Date('2019-03-03'),
+    "capacity": 5
+  }
+]
+
+console.log(cars);
+
