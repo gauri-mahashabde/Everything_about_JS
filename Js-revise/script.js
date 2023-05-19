@@ -165,3 +165,11 @@ const usersList = users.map(function (user) {
 
 console.log(usersList);
 
+var obj = {
+  name:  "vivek",
+  getName: function(){
+  console.log(this.name);
+}
+}
+ 
+obj.getName();
