@@ -73,3 +73,13 @@ let arr = [
   // check if the array contains duplicate or not//
   const containsDuplicate = (nums) =>  {
     }
+    
+//1
+    var x = 1;
+var output = (function() {
+  delete x;
+  return x;
+})();
+
+console.log(output);
+
