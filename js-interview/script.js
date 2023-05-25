@@ -73,3 +73,21 @@ let arr = [
   // check if the array contains duplicate or not//
   const containsDuplicate = (nums) =>  {
     }
+//https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions
+//1
+    var x = 1;
+var output = (function() {
+  delete x;
+  return x;
+})();
+
+console.log(output);
+
+//2
+var x = { foo : 1};
+var output = (function() {
+  delete x.foo;
+  return x.foo;
+})();
+
+console.log(output);
