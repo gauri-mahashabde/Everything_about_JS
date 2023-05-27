@@ -14,4 +14,7 @@ const arrayStringsAreEqual = function (word1, word2) {};
 //Input: sentence = "thequickbrownfoxjumpsoverthelazydog"
 var checkIfPangram = function (sentence) {};
 
-//
+//Check if a number is Positive, Negative, or Zero
+// program that checks if the number is positive, negative or zero
+// input from the user
+const number = parseInt(prompt("Enter a number: "));
