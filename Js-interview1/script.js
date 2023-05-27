@@ -23,4 +23,17 @@ const number = parseInt(prompt("Enter a number: "));
 // program to find the factorial of a number
 
 // take input from the user
-const number1 = parseInt(prompt('Enter a positive integer: '));
+const number1 = parseInt(prompt("Enter a positive integer: "));
+
+//Program to Make a Simple Calculator
+// program for a simple calculator
+
+// take the operator input
+const operator = prompt("Enter operator ( either +, -, * or / ): ");
+
+// take the operand input
+const number2 = parseFloat(prompt("Enter first number: "));
+const number3 = parseFloat(prompt("Enter second number: "));
+
+//Program to Reverse a String
+function reverseString(str) {}
