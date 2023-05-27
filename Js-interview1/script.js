@@ -18,3 +18,9 @@ var checkIfPangram = function (sentence) {};
 // program that checks if the number is positive, negative or zero
 // input from the user
 const number = parseInt(prompt("Enter a number: "));
+
+//Program to Find the Factorial of a Number
+// program to find the factorial of a number
+
+// take input from the user
+const number1 = parseInt(prompt('Enter a positive integer: '));
