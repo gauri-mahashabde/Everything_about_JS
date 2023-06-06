@@ -249,3 +249,7 @@ console.log(
 );
 
 //printing an arry of object
+
+var names = ["Gauri", "chaitra", "joy", "ross"];
+var element = names.map( (e,i) => (i+1+"."+e) ).join(' ');
+console.log(element);
