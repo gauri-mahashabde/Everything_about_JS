@@ -1,0 +1,46 @@
+ 1.What is React?
+ React is a front-end and open-source JavaScript library which is useful in developing user interfaces specifically for applications with a single page. It is helpful in building complex and reusable user interface(UI) components of mobile and web applications as it follows the component-based approach.
+
+The important features of React are:
+
+It supports server-side rendering.
+It will make use of the virtual DOM rather than real DOM (Data Object Model) as RealDOM manipulations are expensive.
+It follows unidirectional data binding or data flow.
+It uses reusable or composable UI components for developing the view.
+
+2.What are the differences between functional and class components?
+
+3.What are props in React?
+The props in React are the inputs to a component of React. They can be single-valued or objects having a set of values that will be passed to components of React during creation by using a naming convention that almost looks similar to HTML-tag attributes. We can say that props are the data passed from a parent component into a child component.
+
+The main purpose of props is to provide different component functionalities such as:
+
+Passing custom data to the React component.
+Using through this.props.reactProp inside render() method of the component.
+Triggering state changes.
+For example, consider we are creating an element with reactProp property as given below: <Element reactProp = "1" />
+This reactProp name will be considered as a property attached to the native props object of React which already exists on each component created with the help of React library: props.reactProp;.
+
+4.Difference between state and props?
+Props	                                               State
+Immutable	                                Owned by its component
+Has better performance	                    Locally scoped
+Can be passed to child components	        Writeable/Mutable
+ 	                                        has setState() method to modify properties
+ 	                                        Changes to state can be asynchronous
+ 	                                        can only be passed as props
+
+
+5.What is React Hooks?
+React Hooks are the built-in functions that permit developers for using the state and lifecycle methods within React components. These are newly added features made available in React 16.8 version. Each lifecycle of a component is having 3 phases which include mount, unmount, and update. Along with that, components have properties and states. Hooks will allow using these methods by developers for improving the reuse of code with higher flexibility navigating the component tree.
+
+Using Hook, all features of React can be used without writing class components. For example, before React version 16.8, it required a class component for managing the state of a component. But now using the useState hook, we can keep the state in a functional component.What are Hooks? Hooks are functions that let us “hook into” React state and lifecycle features from a functional component.
+
+React Hooks cannot be used in class components. They let us write components without class.
+
+6.useState , useEffect , useContext
+
+7.What do u mean by props drilling?
+What are Hooks? Hooks are functions that let us “hook into” React state and lifecycle features from a functional component.
+
+React Hooks cannot be used in class components. They let us write components without class.
