@@ -1,4 +1,4 @@
-//the should just conatin 3 elements //manipulate the array
+/*//the should just conatin 3 elements //manipulate the array
 let Data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(Data);
 
@@ -65,4 +65,4 @@ const students = {
     hobbies: ['reading', 'games', 'coding'],
 };
 
-//7
+//*/

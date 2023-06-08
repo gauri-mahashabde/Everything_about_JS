@@ -79,7 +79,7 @@ console.log(`${number1} ${operator} ${number2} = ${result}`);
 function reverseString(str) {
 
     // empty string
-    let newString = "";
+    let newString = ""; //Gauri
     for (let i = str.length - 1; i >= 0; i--) {
         newString += str[i];
     }
