@@ -30,7 +30,7 @@ var num = 123445679584095950495;
 
 //object
 const emp = {
-  id: 001,
+  id: 1,
   username: "Gauri Mahashabde",
   designation: "Software Engineer",
   techStack: {
