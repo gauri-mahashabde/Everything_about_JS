@@ -41,3 +41,4 @@ for (let y in obj){
 }
 
 const cars = ["Saab", "Volvo", "BMW"];
+let x = [a,b,c]
