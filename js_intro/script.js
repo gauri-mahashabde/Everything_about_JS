@@ -78,6 +78,6 @@ function div(a,b){
 }
 console.log(div(10,2));
 
-
+//function in js
 
 
